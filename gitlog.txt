@@ -1,0 +1,187 @@
+commit c1f15d468d2cb7813d9a1b60149652e067d08f43
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Fri May 4 14:31:08 2018 -0400
+
+    added commets in Bishop.h
+
+commit e995a95a4e76844e4dbf556c2ee6ece199ec5c05
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Fri May 4 14:29:23 2018 -0400
+
+    added comments of name and JHEDID on top of modifiable files
+
+commit 2510434046daacf13adfa28abfa8e49376304184
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Fri May 4 12:45:20 2018 -0400
+
+    Fix Pawn moving diagnolly
+
+commit 10f10ab68e8b4e803ec51e1aac8104c173af0053
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Fri May 4 00:19:07 2018 -0400
+
+    All DOne. Memory errors fixed. Stalemate works (Maybe could be refactored. Statemate is almost identical to inmate). Piece promotion works. THats just two if statements in the make_move function. Inmate works for sure now. Its an inelegant bruteforce method but the code isn't too atrocius.
+
+commit 53be4ca109acf77e5795667034a8b1c3f25811eb
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Thu May 3 22:54:42 2018 -0400
+
+    Inmate finally works
+
+commit c8eb13fb75c9f11dea3a1a09e9f7cbae015e574f
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Thu May 3 15:14:52 2018 -0400
+
+    Fixed In check and valid move
+
+commit daec1671a2023ccfc032abf7fa45feba0d10fef9
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Thu May 3 01:59:54 2018 -0400
+
+    Finished the checkmate function. Needs SEVERE testing. Logically should work. Be warned, IT IS SPAGHETTI CODE! ABSOLUTELY AWFULgit add final-project!
+
+commit 62a19c190adc871ca400e14d7a800a1e98353d52
+Author: Stefano Tusa <stusa2@jhu.edu>
+Date:   Wed May 2 21:41:13 2018 -0400
+
+    Started working on ValidMove functino within Chess.cpp
+
+commit 73a302dab9c253e2648a36f8278d943f24ee9769
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Wed May 2 14:57:56 2018 -0400
+
+    Dyanmic dispatch added
+
+commit ef39f846c5e5a584e02a7ff6c8923d06d3532f2d
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Wed May 2 14:25:53 2018 -0400
+
+    Fixed check function
+
+commit 0545fc298b68b44c9866f1a00d130a8f2c4549a0
+Merge: 244196a ea91a0f
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Wed May 2 13:49:55 2018 -0400
+
+    Comments and stuff
+
+commit 244196ac759508d236556846a3cb191f42eefd15
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Wed May 2 13:48:01 2018 -0400
+
+    Minor comments and stuff
+
+commit ea91a0f6ce1ba1f693fe11d3eb332dfaccde7386
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Mon Apr 30 18:11:54 2018 -0400
+
+    finished load function
+
+commit cf9dcc61fdb37605909d7f9383fa02184f9a0345
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sun Apr 29 23:03:03 2018 -0400
+
+    fixed legal_path_diagnol and warning in Pawn.cpp
+
+commit 2f14defcf37c04649f1bbbc2d4cec898c09f6b31
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sun Apr 29 21:05:47 2018 -0400
+
+    in check works now. Wont let you make a move that puts king in check
+
+commit 787ac2717cb34e50c4d19fb16128d975f5744bcb
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sun Apr 29 20:26:34 2018 -0400
+
+    Made the check function. Messy code though but it works.
+
+commit da0087d1583e533080fe6a16b43041d4a94b6de1
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sun Apr 29 18:19:07 2018 -0400
+
+    Created Display function. Fixed the Path_legal function. IMPORTANT: IF YOU NEED TO CHECK IF KEY EXISTS ON MAP, DO NOT USE _occ[]ls! THIS WILL CREATE A NEW KEY AND VALUE IF IT DOESNTls! CHECK USING _occ.find()ls! Search online to see how to use it!
+
+commit f6959f33548fccf8be8d40ee710d8a4fb6e1782a
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sun Apr 29 16:04:01 2018 -0400
+
+    Pieces now move correctly. Some bad move detection added. Display function added. However, it crashes if I try to move pawn two spaces.
+
+commit c981d5a26ac91daee1ee893ff23c459f7dcbdcc6
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sat Apr 28 23:50:01 2018 -0400
+
+    fixed path_legal function
+
+commit 73a32ecd240fb8c5b05cf417c4da0059d935bd86
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sat Apr 28 19:44:35 2018 -0400
+
+    Takes in moves now. However, path legal not working in Board.cpp
+
+commit d4c4902dceb2117494d900c7c9b9e1625c7bd3aa
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sat Apr 28 16:05:55 2018 -0400
+
+    HEAVILY refactored Chess.cpp make_move function. Much shorter, easier to read. Still have to worry about knight case though.
+
+commit f2d46efc42973edbc3aa2133879ac2bc03f8c69d
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sat Apr 28 15:29:01 2018 -0400
+
+    Fixed some chess functions. Definitely compiles now
+
+commit a6b5593ada794a1d2d48668ab8fd9f3a03097e6e
+Merge: 4463556 415c88c
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sat Apr 28 14:33:22 2018 -0400
+
+    Fixed Makefile. SHould compile
+
+commit 4463556d8c8c5edaaa4047c8f3eb3ece57ef7bc0
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Sat Apr 28 14:31:31 2018 -0400
+
+    Makefile fixed. Should compile
+
+commit 415c88c4db1cba7318fc92bf40770e5091953f65
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Fri Apr 27 01:00:19 2018 -0400
+
+    partially finished make_move, still need to incorporate stale, check...
+
+commit f124dffb2557f6a8fab9450c15748a4facd65b89
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Thu Apr 26 23:59:02 2018 -0400
+
+    added function path_legal and path_legal_diagnol to Board
+
+commit 1e4d9c913670ac2eb77faf71ef56939324b3bc64
+Author: Jianda Chen <jchen242@jhu.edu>
+Date:   Wed Apr 25 14:14:51 2018 -0400
+
+    Create Board::operator, add_piece, and has_valid_kings functions
+
+commit 819387bc375654618012edd83158bf3f8f025824
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sat Apr 21 17:25:56 2018 -0400
+
+    written legal move shape and capture shape for pawn
+
+commit dceed6bf95c9b078071da1d6b4fcd70386b9fdbc
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sat Apr 21 16:43:27 2018 -0400
+
+    written move legal shape function for queen,knight,bishop
+
+commit 9d6bf1ca9ae3dc56fbdf42e19a1b87d93eadbadf
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sat Apr 21 16:05:28 2018 -0400
+
+    copy King.cpp and rook.cpp from hw7
+
+commit e58e961684afa00774020ad78ab2158c8743971a
+Author: TianyueOu <tou3@jhu.edu>
+Date:   Sat Apr 21 15:47:01 2018 -0400
+
+    created inital files
